@@ -9,6 +9,9 @@
       href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+
     <link rel="stylesheet" href="src/style.css" />
 
     <title>💃🏻 Salsa Song Generator | Adri Codes 🖤</title>
@@ -19,21 +22,18 @@
         <h1>Salsa Song Generator</h1>
       </header>
       <main>
-        <form>
+        <form id="song-generator">
           <input
             type="text"
             placeholder="Enter a feeling"
             autofocus
             required
             class="prompt"
+            id="user-instructions"
           />
           <input type="submit" class="submit-button" />
         </form>
-        <div class="salsa-song">
-          He llenado tu tiempo vacío de aventuras y más
-          <br />
-          Y mi mente ha parido nostalgia por no verte ya
-        </div>
+        <div class="salsa-song" id="salsa-song"></div>
       </main>
       <footer>
         <a
