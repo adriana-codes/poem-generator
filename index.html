@@ -3,36 +3,52 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="src/style.css" />
 
-    <title>Salsa Song Generator | Adri Codes 🖤</title>
+    <title>💃🏻 Salsa Song Generator | Adri Codes 🖤</title>
   </head>
   <body>
-    <header>
-      <h1>Salsa Song Generator</h1>
-    </header>
-    <main>
-      <form>
-        <input type="text" placeholder="Enter a topic" autofocus required />
-        <input type="submit" />
-      </form>
-      <div>
-        He llenado tu tiempo vacío de aventuras y más
-        <br />
-        Y mi mente ha parido nostalgia por no verte ya
-      </div>
-    </main>
-    <footer>
-      <a href="https://github.com/adriana-codes/poem-generator" target="_blank"
-        >Open sourced</a
-      >
-      AI project coded by
-      <a href="https://github.com/adriana-codes" target="_blank">Adri Díaz</a> &
-      hosted on
-      <a href="https://remarkable-griffin-b8377f.netlify.app/" target="_blank"
-        >Netlify</a
-      >
-    </footer>
+    <div class="container">
+      <header>
+        <h1>Salsa Song Generator</h1>
+      </header>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter a feeling"
+            autofocus
+            required
+            class="prompt"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="salsa-song">
+          He llenado tu tiempo vacío de aventuras y más
+          <br />
+          Y mi mente ha parido nostalgia por no verte ya
+        </div>
+      </main>
+      <footer>
+        <a
+          href="https://github.com/adriana-codes/poem-generator"
+          target="_blank"
+          >Open sourced</a
+        >
+        AI project coded by
+        <a href="https://github.com/adriana-codes" target="_blank">Adri Díaz</a>
+        & hosted on
+        <a href="https://remarkable-griffin-b8377f.netlify.app/" target="_blank"
+          >Netlify</a
+        >
+      </footer>
+    </div>
     <script src="src/script.js"></script>
   </body>
 </html>

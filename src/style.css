@@ -1,3 +1,61 @@
 body {
-  display: block;
+  background-color: #a75265;
+  font-family: Urbanist;
+}
+
+a {
+  color: #ec7263;
+}
+
+.container {
+  margin: 120px auto;
+  max-width: 600px;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 30px;
+  color: #ec7263;
+}
+
+form {
+  padding: 25px;
+  background-color: #febe7e;
+  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.09);
+  border-radius: 7px;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.prompt {
+  padding: 13px;
+  width: 80%;
+  border-radius: 6px;
+}
+
+.submit-button {
+  padding: 13px;
+  border-radius: 6px;
+  margin-left: 8px;
+  background-color: #ec7263;
+  color: #57385c;
+}
+
+.salsa-song {
+  font-size: 15px;
+  background-color: #febe7e;
+  padding: 20px;
+  line-height: 2;
+  border-left: 4px solid #57385c;
+  font-weight: 200;
+  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.04);
+  border-radius: 7px;
+}
+
+footer {
+  text-align: center;
+  font-size: 12px;
+  margin-top: 25px;
+  color: #57385c;
 }
